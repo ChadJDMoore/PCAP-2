@@ -36,7 +36,8 @@ I’ll be putting my Wireshark skills to the test
   
 - Checked the frame display section of packet 4243.
   <div><img width="250" alt="image" src="https://github.com/user-attachments/assets/aa657e9d-22de-46ef-b7b3-ab969b8419dc" /></div>
-  A quick google search on pyftpdlib shows that it is a python FTP server library.
+  
+  <div>A quick google search on pyftpdlib shows that it is a python FTP server library.</div>
 <div>Answer: 1.5.5</div>
 
 ### 3. How many DNS query response packets were captured?
