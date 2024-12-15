@@ -66,3 +66,9 @@ I’ll be putting my Wireshark skills to the test
   
 <div>Answer: Employee_Information_CONFIDENTIAL.txt</div>
 
+### 5. What is the name of the log file that was created at 4:51 AM on the Windows host?
+- Followed the TCP stream of packet 4128. A log file was created on 7/16/2019 at 4:51 AM called LogFile.log.
+  <div><img width="199" alt="image" src="https://github.com/user-attachments/assets/3699a7e3-820b-4c78-a3b5-f179f2b2be83" /></div>
+
+<div>Answer: LogFile.log</div>
+
