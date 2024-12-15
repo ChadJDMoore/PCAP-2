@@ -44,13 +44,15 @@ I’ll be putting my Wireshark skills to the test
 - I decided to look at all the traffic coming from the attacker's host 192.168.56.1. Type in “ip.src == 192.168.56.1” in the display filter.
   <div><img width="511" alt="image" src="https://github.com/user-attachments/assets/ea1a7c6a-f876-4025-a3d8-43e7ae12d8cf" /></div>
 
-- Go to the frame display on the lower left-hand side of wireshark. Click on Domain Name System > Flags > Right click the entry that says “response: message is a response” > apply as filter > selected.
-  <div><img width="253" alt="image" src="https://github.com/user-attachments/assets/14d28c35-c446-482e-8104-8e1ae1e7fbff" /></div>
+- I analyzed the results and identified the HTTP traffic where the attacker downloaded the password.txt file. I then examined packet 4128, the first packet following the HTTP traffic.
+  <div><img width="483" alt="image" src="https://github.com/user-attachments/assets/c336961a-3ba1-4735-ad8a-f4e0a7cb4d8f" /></div>
   
-- Check the displayed packets in the lower right-hand side of wireshark. Look for the number next to "Displayed"
-  <div><img width="254" alt="image" src="https://github.com/user-attachments/assets/6f6a9683-f812-4f70-bb48-b14d82081f40" /></div>
+- I followed the TCP stream by right clicking the packet > Follow > TCP stream.
+  <div><img width="275" alt="image" src="https://github.com/user-attachments/assets/f019652c-1351-4a37-a456-ff50feb8a13a" /></div>
+  <div><img width="222" alt="image" src="https://github.com/user-attachments/assets/c0246d76-6e08-4842-b8af-f9b6b5b30ad3" /></div>
+  <div><img width="211" alt="image" src="https://github.com/user-attachments/assets/0cc9264d-fe57-40aa-a99b-44804a40c881" /></div>
 
-<div>Answer: 90</div>
+<div>Answer: 8081</div>
 
 ### 4. What is the IP address of the host which sent the most number of bytes?
 - Go to Statistics > Endpoints > IPv4 > click Tx Bytes (transmit bytes) to display the results in descending order.
