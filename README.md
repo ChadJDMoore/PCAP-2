@@ -40,9 +40,9 @@ I’ll be putting my Wireshark skills to the test
   <div>A quick google search on pyftpdlib shows that it is a python FTP server library.</div>
 <div>Answer: 1.5.5</div>
 
-### 3. How many DNS query response packets were captured?
-- Type dns in the display filter. Select the first packet that says “standard query response.”
-  <div><img width="511" alt="image" src="https://github.com/user-attachments/assets/67e727c3-6ff2-4e0c-9e9f-685ae94b979f" /></div>
+### 3. Which port was used to gain access to the victim Windows host?
+- I decided to look at all the traffic coming from the attacker's host 192.168.56.1. Type in “ip.src == 192.168.56.1” in the display filter.
+  <div><img width="511" alt="image" src="https://github.com/user-attachments/assets/ea1a7c6a-f876-4025-a3d8-43e7ae12d8cf" /></div>
 
 - Go to the frame display on the lower left-hand side of wireshark. Click on Domain Name System > Flags > Right click the entry that says “response: message is a response” > apply as filter > selected.
   <div><img width="253" alt="image" src="https://github.com/user-attachments/assets/14d28c35-c446-482e-8104-8e1ae1e7fbff" /></div>
