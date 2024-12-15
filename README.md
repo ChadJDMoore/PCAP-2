@@ -25,12 +25,13 @@ I’ll be putting my Wireshark skills to the test
   
   <div><img width="510" alt="image" src="https://github.com/user-attachments/assets/7915f345-8ff7-4258-ad56-be967d3784b6" /></div>
 - Right click on packet 4121 > followed HTTP stream, because of a GET request for a password.txt, that got my attention
+  
   <div><img width="206" alt="image" src="https://github.com/user-attachments/assets/fe2ba775-b453-4931-84a0-40ca2258c1a4" /></div>
 <div>Answer: sbt123</div>
 
 ### 2. What is the IP address of the host that was pinged twice?
 - Type icmp on the display filter.
-<div><img width="374" alt="image" src="https://github.com/user-attachments/assets/5fdffdb2-99d4-4b1c-9041-91679e74c2b5" /></div>
+  <div><img width="374" alt="image" src="https://github.com/user-attachments/assets/5fdffdb2-99d4-4b1c-9041-91679e74c2b5" /></div>
 <div>We can see two ping requests that were sent to 8.8.4.4.</div>
 <div>Answer: 8.8.4.4</div>
 
