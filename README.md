@@ -18,6 +18,7 @@ I’ll be putting my Wireshark skills to the test
 - Wireshark for capturing and examining network traffic to investigate the 'Local to Local Port Scanning' alert.
 - Packet Capture File (PCAP) provided for detailed analysis of network communication between internal systems.
 - VirtualBox used as the virtual machine platform to simulate the environment for traffic analysis, ensuring a controlled and isolated space for investigation.
+- Windows 10 Virtual Machine
 
 ## Steps
 ### 1. What is the WebAdmin password?
