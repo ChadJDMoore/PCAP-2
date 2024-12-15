@@ -60,12 +60,9 @@ I’ll be putting my Wireshark skills to the test
 
 ### 4. What is the name of a confidential file on the Windows host?
 - I followed the TCP stream of packet 4128.
-  
-  <div></div>
-
 - Checked the files in the Desktop directory and found a file called Employee_Information_CONFIDENTIAL.txt.
 
-  <div></div>
+  <div><img width="283" alt="image" src="https://github.com/user-attachments/assets/73cdab71-6799-47cd-ae19-90e8d557e28d" /></div>
   
 <div>Answer: Employee_Information_CONFIDENTIAL.txt</div>
 
