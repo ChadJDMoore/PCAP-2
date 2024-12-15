@@ -51,6 +51,10 @@ I’ll be putting my Wireshark skills to the test
   <div><img width="275" alt="image" src="https://github.com/user-attachments/assets/f019652c-1351-4a37-a456-ff50feb8a13a" /></div>
   <div><img width="222" alt="image" src="https://github.com/user-attachments/assets/c0246d76-6e08-4842-b8af-f9b6b5b30ad3" /></div>
   <div><img width="211" alt="image" src="https://github.com/user-attachments/assets/0cc9264d-fe57-40aa-a99b-44804a40c881" /></div>
+  <div>The attacker accessed the desktop, listed files, created a text file with commands for connecting to a server via anonymous FTP, and downloaded a binary named **malware.exe**.</div>
+
+- Returned back to the main screen and looked for the destination port
+  <div><img width="244" alt="image" src="https://github.com/user-attachments/assets/9fbe5f10-fc44-4b78-965c-3203641511b4" /></div>
 
 <div>Answer: 8081</div>
 
