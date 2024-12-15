@@ -30,10 +30,14 @@ I’ll be putting my Wireshark skills to the test
 <div>Answer: sbt123</div>
 
 ### 2. What is the version number of the attacker’s FTP server?
-- Type icmp on the display filter.
-  <div><img width="374" alt="image" src="https://github.com/user-attachments/assets/5fdffdb2-99d4-4b1c-9041-91679e74c2b5" /></div>
-<div>We can see two ping requests that were sent to 8.8.4.4.</div>
-<div>Answer: 8.8.4.4</div>
+- Based on the previous question, we can infer that the device used to get the password.txt file is the attacker. Type in “ftp and ip.src == 192.168.56.1” in the display filter.
+  
+  <div><img width="509" alt="image" src="https://github.com/user-attachments/assets/3d9c4a8f-ca47-41a2-a9f1-5a63f7a79676" /></div>
+  
+- Checked the frame display section of packet 4243.
+  <div><img width="250" alt="image" src="https://github.com/user-attachments/assets/aa657e9d-22de-46ef-b7b3-ab969b8419dc" /></div>
+  A quick google search on pyftpdlib shows that it is a python FTP server library.
+<div>Answer: 1.5.5</div>
 
 ### 3. How many DNS query response packets were captured?
 - Type dns in the display filter. Select the first packet that says “standard query response.”
